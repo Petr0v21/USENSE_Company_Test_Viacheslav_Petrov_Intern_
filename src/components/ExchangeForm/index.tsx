@@ -34,6 +34,7 @@ const ExchangeForm: React.FC = () => {
       }}
       className="exchange"
     >
+      <h1>Exchange Form</h1>
       <div className="exchange-row">
         <input
           name="buyCount"
@@ -72,7 +73,7 @@ const ExchangeForm: React.FC = () => {
           <option value="USD">USD</option>
         </select>
       </div>
-      <button className="exchange-button" />
+      <button className="exchange-button">Перевести</button>
     </form>
   );
 };

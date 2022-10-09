@@ -13,12 +13,19 @@ const Header = () => {
   }
   return (
     <div className="header">
+      <h2>Test Task ITOP-1000</h2>
       {loading ? (
         <h2>Loading ...</h2>
       ) : (
         <div className="header-values">
-          <label>{base.USD}</label>
-          <label>{base.EUR}</label>
+          <div>
+            <label>USD</label>
+            <input value={base.USD} />
+          </div>
+          <div>
+            <label>EUR</label>
+            <input value={base.EUR} />
+          </div>
         </div>
       )}
     </div>
