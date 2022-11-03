@@ -10,7 +10,7 @@ export const fetchExchangeCurrent: any = createAsyncThunk(
           params.from ? params.from : "UAH"
         }&to=${
           params.to ? params.to : "USD"
-        }&api_key=471395a8f9-f0b4b54e55-rji99z`
+        }&api_key=6ef18be441-0309fc2798-rkry0o`
       );
       return await response.json();
     } catch (e) {
@@ -24,7 +24,7 @@ export const fetchBaseCurrent: any = createAsyncThunk(
   async (_, thunkApi) => {
     try {
       const response = await fetch(
-        `https://api.fastforex.io/fetch-multi?from=UAH&to=EUR,USD&api_key=471395a8f9-f0b4b54e55-rji99z`
+        `https://api.fastforex.io/fetch-multi?from=UAH&to=EUR,USD&api_key=6ef18be441-0309fc2798-rkry0o`
       );
       const json: CurrentMultyModel = await response.json();
       const baseCurrentObj = {

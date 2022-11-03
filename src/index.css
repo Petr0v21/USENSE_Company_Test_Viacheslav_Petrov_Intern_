@@ -21,7 +21,7 @@ input {
 }
 
 select {
-  background-color: rgb(101, 101, 233);
+  background-color: rgba(0, 0, 255, 1);
   color: white;
   border-radius: 12px;
   padding: 4%;
@@ -31,7 +31,7 @@ select {
 }
 
 select:hover {
-  background-color: rgb(138, 138, 255);
+  background-color: rgba(0, 0, 255, 0.6);
 }
 
 select:focus {
@@ -44,16 +44,6 @@ select:focus-visible {
 h1 {
   padding-top: 1%;
 }
-/* .form {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 2%;
-  padding-right: 2%;
-} */
 
 button {
   display: flex;
@@ -65,12 +55,11 @@ button {
   padding: 2% 3%;
   border-radius: 15px;
   border: 1px solid rgb(3, 3, 3);
-  background-color: rgb(101, 101, 233);
+  background-color: rgba(0, 0, 255, 1);
   transition: all 0.25s ease;
 }
 
 button:hover {
   color: rgb(190, 242, 255);
-  background-color: rgb(133, 133, 233);
-  border: 1px solid rgb(58, 58, 58);
+  background-color: rgba(0, 0, 255, 0.6);
 }
