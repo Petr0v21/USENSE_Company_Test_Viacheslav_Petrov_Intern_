@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  background-color: blue;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+}
+
+.header h2 {
+  padding: 0 2%;
+}
+
+.header-values {
+  padding: 2% 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.header-values div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.exchange {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5% 25%;
+  align-content: center;
+  align-items: center;
+  gap: 14px;
+}
+
+.exchange div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5%;
+}
